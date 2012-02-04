@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3200C1EB14DC7C7400A518CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3200C1EA14DC7C7400A518CB /* Cocoa.framework */; };
+		3200C1F514DC7C7400A518CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3200C1F314DC7C7400A518CB /* InfoPlist.strings */; };
+		3200C1F714DC7C7400A518CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3200C1F614DC7C7400A518CB /* main.m */; };
+		3200C1FB14DC7C7400A518CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3200C1F914DC7C7400A518CB /* Credits.rtf */; };
+		3200C1FE14DC7C7400A518CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3200C1FD14DC7C7400A518CB /* AppDelegate.m */; };
+		3200C20114DC7C7500A518CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3200C1FF14DC7C7500A518CB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3200C1E614DC7C7400A518CB /* SayHi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayHi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3200C1EA14DC7C7400A518CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3200C1ED14DC7C7400A518CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3200C1EE14DC7C7400A518CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3200C1EF14DC7C7400A518CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3200C1F214DC7C7400A518CB /* SayHi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SayHi-Info.plist"; sourceTree = "<group>"; };
+		3200C1F414DC7C7400A518CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3200C1F614DC7C7400A518CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3200C1F814DC7C7400A518CB /* SayHi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SayHi-Prefix.pch"; sourceTree = "<group>"; };
+		3200C1FA14DC7C7400A518CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3200C1FC14DC7C7400A518CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3200C1FD14DC7C7400A518CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3200C20014DC7C7500A518CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3200C1E314DC7C7400A518CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3200C1EB14DC7C7400A518CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3200C1DB14DC7C7400A518CB = {
+			isa = PBXGroup;
+			children = (
+				3200C1F014DC7C7400A518CB /* SayHi */,
+				3200C1E914DC7C7400A518CB /* Frameworks */,
+				3200C1E714DC7C7400A518CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3200C1E714DC7C7400A518CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3200C1E614DC7C7400A518CB /* SayHi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3200C1E914DC7C7400A518CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3200C1EA14DC7C7400A518CB /* Cocoa.framework */,
+				3200C1EC14DC7C7400A518CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3200C1EC14DC7C7400A518CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3200C1ED14DC7C7400A518CB /* AppKit.framework */,
+				3200C1EE14DC7C7400A518CB /* CoreData.framework */,
+				3200C1EF14DC7C7400A518CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3200C1F014DC7C7400A518CB /* SayHi */ = {
+			isa = PBXGroup;
+			children = (
+				3200C1FC14DC7C7400A518CB /* AppDelegate.h */,
+				3200C1FD14DC7C7400A518CB /* AppDelegate.m */,
+				3200C1FF14DC7C7500A518CB /* MainMenu.xib */,
+				3200C1F114DC7C7400A518CB /* Supporting Files */,
+			);
+			path = SayHi;
+			sourceTree = "<group>";
+		};
+		3200C1F114DC7C7400A518CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3200C1F214DC7C7400A518CB /* SayHi-Info.plist */,
+				3200C1F314DC7C7400A518CB /* InfoPlist.strings */,
+				3200C1F614DC7C7400A518CB /* main.m */,
+				3200C1F814DC7C7400A518CB /* SayHi-Prefix.pch */,
+				3200C1F914DC7C7400A518CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3200C1E514DC7C7400A518CB /* SayHi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3200C20414DC7C7500A518CB /* Build configuration list for PBXNativeTarget "SayHi" */;
+			buildPhases = (
+				3200C1E214DC7C7400A518CB /* Sources */,
+				3200C1E314DC7C7400A518CB /* Frameworks */,
+				3200C1E414DC7C7400A518CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHi;
+			productName = SayHi;
+			productReference = 3200C1E614DC7C7400A518CB /* SayHi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3200C1DD14DC7C7400A518CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3200C1E014DC7C7400A518CB /* Build configuration list for PBXProject "SayHi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3200C1DB14DC7C7400A518CB;
+			productRefGroup = 3200C1E714DC7C7400A518CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3200C1E514DC7C7400A518CB /* SayHi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3200C1E414DC7C7400A518CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3200C1F514DC7C7400A518CB /* InfoPlist.strings in Resources */,
+				3200C1FB14DC7C7400A518CB /* Credits.rtf in Resources */,
+				3200C20114DC7C7500A518CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3200C1E214DC7C7400A518CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3200C1F714DC7C7400A518CB /* main.m in Sources */,
+				3200C1FE14DC7C7400A518CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3200C1F314DC7C7400A518CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3200C1F414DC7C7400A518CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3200C1F914DC7C7400A518CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3200C1FA14DC7C7400A518CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3200C1FF14DC7C7500A518CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3200C20014DC7C7500A518CB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3200C20214DC7C7500A518CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3200C20314DC7C7500A518CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3200C20514DC7C7500A518CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SayHi/SayHi-Prefix.pch";
+				INFOPLIST_FILE = "SayHi/SayHi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3200C20614DC7C7500A518CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SayHi/SayHi-Prefix.pch";
+				INFOPLIST_FILE = "SayHi/SayHi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3200C1E014DC7C7400A518CB /* Build configuration list for PBXProject "SayHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3200C20214DC7C7500A518CB /* Debug */,
+				3200C20314DC7C7500A518CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3200C20414DC7C7500A518CB /* Build configuration list for PBXNativeTarget "SayHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3200C20514DC7C7500A518CB /* Debug */,
+				3200C20614DC7C7500A518CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3200C1DD14DC7C7400A518CB /* Project object */;
+}
